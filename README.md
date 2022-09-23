@@ -38,6 +38,11 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+https://www.w3schools.com/howto/howto_css_button_on_image.asp
+https://www.w3schools.com/howto/howto_js_topnav.asp
+
+
+
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
