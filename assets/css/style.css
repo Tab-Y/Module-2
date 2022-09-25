@@ -232,7 +232,12 @@ p {
         text-orientation: upright;
         font-size: 0.5em;
     }
-   
+
+    h1 {
+        font-size: 34px;
+        width: 400px;
+    }
+
     .card > .over-img {
         position: absolute;
         bottom: 15%;
