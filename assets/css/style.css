@@ -35,7 +35,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    min-width: 450px;
+    width: 450px;
 }
 
 .main-header nav a {
@@ -144,20 +144,10 @@ img {
     flex: 1 1 auto;
   
 }
-.card > .over-img1 {
-    position: absolute;
-    top: 75%;
-    left: 0%;
-    background-color: var(--lightback);
-    color: var(--accent);
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    z-index: 2;
-}
+
 .card > .over-img {
     position: absolute;
-    top: 50%;
+    bottom: 50px;
     left: 0%;
     background-color: var(--lightback);
     color: var(--accent);
@@ -235,13 +225,34 @@ p {
         font-size: 0.5em;
     }
 }
+
 @media screen and (max-width: 800px) {
     h3 {
         writing-mode: vertical-rl;
         text-orientation: upright;
         font-size: 0.5em;
     }
+   
+    .card > .over-img {
+        position: absolute;
+        bottom: 15%;
+        left: 0%;
+        background-color: var(--lightback);
+        color: var(--accent);
+        font-size: 12px;
+        padding: 3px 6px;
+        border: none;
+        z-index: 2;
+    }
+
     footer {
         line-height: 2;
+    }
+
+    .main-header nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
     }
 }
