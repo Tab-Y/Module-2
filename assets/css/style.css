@@ -34,6 +34,7 @@ h1 {
 .main-header nav ul {
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
     min-width: 450px;
 }
 
@@ -84,14 +85,14 @@ aside {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex: 1;
+    flex: 1 1 auto;
     background-color: var(--primback);
     color: var(--accent);
     padding: 1%;
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 12%;
+    min-width: 10%;
     text-align: right;
-    font-size: 48px;
+    font-size: 2.5em;
     margin-left: 3%;
 }
 /* left half of body */
@@ -229,3 +230,18 @@ p {
     border-bottom: 4px solid currentColor;
 }
 /* footer specific code */
+@media screen and (max-width: 1500px) {
+    h3 {
+        font-size: 0.5em;
+    }
+}
+@media screen and (max-width: 800px) {
+    h3 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 0.5em;
+    }
+    footer {
+        line-height: 2;
+    }
+}
