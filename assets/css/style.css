@@ -229,13 +229,3 @@ p {
     border-bottom: 4px solid currentColor;
 }
 /* footer specific code */
-
-@media screen and (max-width: 992px) {
-    *{ visibility: hidden;}
-}
-@media screen and (max-width: 768px) {
-
-}
-@media screen and (max-width: 576px) {
-    
-}
