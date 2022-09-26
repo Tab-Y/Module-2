@@ -54,6 +54,7 @@ h1 {
     text-decoration: none;
     padding: 7px;
     border-bottom: 4px solid currentColor;
+    /*adding border radius creates an interesting nav bar - doesnt fit the assignment tho*/
 }
 /* functioning header code above */
 /* banner specific code */
